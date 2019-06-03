@@ -1,0 +1,22 @@
+{
+  "api": {
+    "baseUrl":"http://localhost:9000/api"
+  },
+  "resize": {
+     "imageUrl": "http://localhost:9000/api/media/image-resize"
+  },
+  "productinfo": {
+    "productInfoUrl": ""
+  },
+  "notifications": {
+    "unauthorizedEndpoints": [
+      "api/auth/login"
+    ],
+    "notFoundEndpoints": [
+      "api/products",
+      "api/account/login",
+      "api/account/register"
+    ]
+  }
+}
+
